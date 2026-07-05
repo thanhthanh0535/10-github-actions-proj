@@ -85,7 +85,7 @@ jobs:
           bucket: 10-github-actions-proj
           dist-folder: ./dist
           #bucket-region: us-east-1
-  # information:#
+  # information:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: Get code
