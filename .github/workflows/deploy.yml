@@ -85,12 +85,12 @@ jobs:
           bucket: 10-github-actions-proj
           dist-folder: ./dist
           #bucket-region: us-east-1
-  information:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get code
-        uses: actions/checkout@v7
-      - name: Run custom action
-        uses: ./.github/actions/deploy-s3-javascript
+  # information:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Get code
+  #       uses: actions/checkout@v7
+  #     - name: Run custom action
+  #       uses: ./.github/actions/deploy-s3-javascript
 
           
